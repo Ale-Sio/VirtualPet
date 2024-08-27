@@ -1,8 +1,14 @@
-
 void setup(){
-  //some of your code here
+ background(0, 20, 150);
 }
+
 void draw(){
-  //more of your code here
-}
+ fill(0, 200, 205);
+ ellipse(50, 50, 70, 20);
+ triangle(100, 50, 80, 45, 80, 55);
+ fill(0, 0, 0);
+ circle(25, 50, 3);
+ line(20, 55, 35, 55);
+ triangle(55, 25, 60, 40, 35, 40);
+}    
 
